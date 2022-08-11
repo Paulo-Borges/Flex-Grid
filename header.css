@@ -1,0 +1,34 @@
+.header {
+    display: flex;   /* coloca um ao lado do outro*/
+    justify-content: space-between;   /*um em cada ponta*/
+    align-items: center;
+    flex-wrap: wrap;  /*quando diminuir um ir pra debaixo do outro*/
+    border: 2px solid var(--cor-primaria);
+    margin: 0 auto;
+    padding: 20px;
+    background: var(--bg-primario);
+    max-width: 800px;
+}
+
+.menu {
+    display: flex;      /* coloca um ao lado do outro*/
+}
+
+.menu li {
+    margin-left: 10px;   /* margim a esquerda*/
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: var(--text-primario);
+}
+
+.menu li a:hover {
+    color: var(--text-secundario);
+}
+
+a {
+    color: var(--text-primario);
+
+}

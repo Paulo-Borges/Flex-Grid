@@ -1,0 +1,16 @@
+.flex {
+    display: flex; /* um do lado do outro*/
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.flex div p:hover {
+    color: var(--text-secundario);
+}

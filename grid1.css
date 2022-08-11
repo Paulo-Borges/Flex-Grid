@@ -1,0 +1,39 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.grid-maior {        /* não precisamos nem mexer*/
+
+}
+
+.grid-coluna {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.anuncio {
+    grid-column: 1;
+    grid-row: 2/5;
+    border: 2px solid tomato;
+    display: block;
+}
+
+@media(max-width:600px) {
+    .grid1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-coluna {
+        display: block;
+    }
+    .anuncio {
+        grid-column: auto;
+    grid-row: auto;
+    }
+}

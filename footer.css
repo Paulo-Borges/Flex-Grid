@@ -1,0 +1,19 @@
+footer {
+    margin: 0 auto;
+
+}
+
+
+footer a {
+    display: flex;
+    color: var(--bg-primario);
+    margin-top: 50px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: var(--text-secundario);
+}
